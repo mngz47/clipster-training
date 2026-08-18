@@ -2,8 +2,7 @@
 const spreadsheetId = 'e/2PACX-1vRLvILatfDSm-qIt0-9wQjG8vRFQVUqwCpFAMLK0P4xY-l90ED4SRMfVVkKu1RhFPxXeFkcEPdwrTu8';
 
 // Replace with your API Key
-const apiKey = 'AIzaSyCnH0cgJTGaGArw4IQfw1apG6XYBqCcnFA
-';
+const apiKey = 'AIzaSyCnH0cgJTGaGArw4IQfw1apG6XYBqCcnFA';
 
 // Construct the URL for Google Sheets API v4
 const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/values/Sheet1?key=${apiKey}`;

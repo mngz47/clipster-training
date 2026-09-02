@@ -14,6 +14,8 @@ async function fetchGoogleSheetData() {
   mode: 'no-cors'
 });
        const data = await response.json();
+
+      e('data-response').innerHTML = data;
       
        // Extract rows from the data
        const rows = data.values;

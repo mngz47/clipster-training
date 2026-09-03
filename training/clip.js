@@ -10,9 +10,7 @@ const url = `https://sheets.googleapis.com/v4/spreadsheets/${spreadsheetId}/valu
 async function fetchGoogleSheetData() {
    try {
        // Fetch data from Google Sheets API
-       const response = await fetch(url, {
- "Content-Type" : "text/plain"
-});
+       const response = await fetch(url);
        const data = await response.json();
 
       e('data-response').innerHTML = data;

@@ -11,7 +11,7 @@ async function fetchGoogleSheetData() {
    try {
        // Fetch data from Google Sheets API
        const response = await fetch(url, {
-  "mode": "no-cors", "Content-Type" : "text/plain"
+ "Content-Type" : "text/plain"
 });
        const data = await response.json();
 
